@@ -6,7 +6,6 @@ const mobile = [
     { name: 'Walton', price: 12000, camera: '12mp', color: 'black' },
     { name: 'HTC', price: 25000, camera: '12mp', color: 'black' }
 ]
-
 function getCheapestPhone(phones) {
     let min = phones[0];
     for (const phone of phones) {
