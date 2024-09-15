@@ -14,7 +14,6 @@ console.log("Max Value is:", max);
 
 // smallest
 const smallest = [84, 55, 42, 98, 35, 24, 87];
-
 function getMin(numbers) {
     let min = numbers[0];
     for (const num of numbers) {
